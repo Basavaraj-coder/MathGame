@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <TextureView
+      android:id="@+id/textureView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:text="Skip"
+        android:padding="20dp"
+        android:visibility="visible"
+        android:textSize="14sp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/buttonReload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:visibility="gone"
+        android:text="Reload"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black" />
+</FrameLayout>
+
+<!--android:layout_gravity="top|end"-->
+<!--reload btn
+ android:layout_marginLeft="700dp"
+ -->
+<!--
+  <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+-->

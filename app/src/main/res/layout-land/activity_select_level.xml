@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/brainicn"
+    tools:context=".selectLevelActivity">
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        >-->
+    <!--        -->
+
+    <!--    </RelativeLayout>-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="290dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="200dp"
+        android:text="Select Level"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="40sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/level1btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="level1button"
+        android:elevation="10dp"
+        android:text="+"
+        android:textColor="#FBE207"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        app:cornerFamily="rounded"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/grey"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/level2btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="46dp"
+        android:layout_marginStart="540dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="level2button"
+        android:elevation="10dp"
+        android:text="-"
+        android:textColor="#EA2113"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:cornerFamily="rounded"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/level4btn"
+        app:strokeColor="@color/grey"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/level3btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="350dp"
+        android:layout_marginStart="540dp"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="level3button"
+        android:elevation="10dp"
+        android:text="X"
+        android:textColor="#E40DC8"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        app:cornerFamily="rounded"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/level1btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="@color/grey"
+        app:strokeWidth="4dp" />
+
+    <ImageButton
+        android:id="@+id/level5btn"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/braintransparent"
+        android:background="@drawable/roundimg"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:padding="14dp"
+        android:contentDescription="brain game"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/level4btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="172dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="level4button"
+        android:elevation="10dp"
+        android:text="/"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#E4F821"
+        app:cornerFamily="rounded"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level3btn"
+        app:strokeColor="@color/grey"
+        app:strokeWidth="4dp" />
+
+
+</RelativeLayout>

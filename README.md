@@ -1,7 +1,8 @@
 # MathVille Game
-## MathVille Game is an educational and fun arithmetic game designed for kids to learn and practice basic math operations such as addition, subtraction, multiplication, and division. The game also includes a memory testing feature to enhance cognitive skills.
+## MathVille Game is an educational and fun arithmetic game designed for kids to learn and practice basic math operations such as addition, subtraction, multiplication, and division. The game also includes a memory testing feature to enhance cognitive skills with screen Landscape Mode.
 
 ## Key Features:
+### Tutorials Friendly.
 ### Interactive Arithmetic Problems: Engaging exercises that cover fundamental math operations.
 ### Memory Testing Game: Challenges that help improve memory and recall skills.
 ### Kid-Friendly Interface: Intuitive design tailored for young users.

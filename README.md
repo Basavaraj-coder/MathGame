@@ -16,7 +16,8 @@
 ## Tutorial Screen for Substraction<br>
 ![IMG-20240608-WA0014](https://github.com/user-attachments/assets/7061f4d0-9498-460e-b6e9-38fdbfc6afed)
 ![IMG-20240608-WA0015](https://github.com/user-attachments/assets/f063b298-0b8f-4606-97d8-c23ef84342e7)
+![IMG-20240608-WA0016](https://github.com/user-attachments/assets/d2782761-9e4b-47a6-bf96-827d9865bf74)
 
 ## Memory Game for Kids to improve their memory<br>
-![IMG-20240608-WA0016](https://github.com/user-attachments/assets/d2782761-9e4b-47a6-bf96-827d9865bf74)
 ![IMG-20240608-WA0017](https://github.com/user-attachments/assets/e0980876-ff54-4be6-a67b-a0ed28670bf3)
+![WhatsApp Image 2024-06-08 at 08 27 06_4b524e48](https://github.com/user-attachments/assets/32ae2c49-acd6-4b0f-a86e-92bad1917665)
